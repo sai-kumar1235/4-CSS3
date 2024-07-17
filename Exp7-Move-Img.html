@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .box{
+            margin: 50px;
+            width: 1000px;
+            height: 200px;
+            background: url(https://t3.ftcdn.net/jpg/00/74/72/48/360_F_74724858_aNeCJsZfsE8ULrfRjoyi6FCxVezwibw9.jpg) no-repeat;
+            position: relative;
+            background-size: contain;
+            animation: repeatit 2s linear 1s infinite alternate;
+            
+        }
+        @keyframes repeatit{
+
+            from{left:0;}
+            to{left:50%;}
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
